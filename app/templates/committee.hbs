@@ -1,8 +1,8 @@
 Committee:
+<!-- {{choice-form chooseOne="chooseOne"}} -->
 <ul>
   {{#each model as |committee|}}
     <li> {{committee.name}}</li>
   {{/each}}
 </ul>
-
 {{#link-to 'results'}}Results{{/link-to}}

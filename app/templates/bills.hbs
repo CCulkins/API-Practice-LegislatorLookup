@@ -1,0 +1,12 @@
+Bills:
+<ul>
+  {{#each model as |bill|}}
+    <li> Bill ID: {{bill.bill_id}}</li>
+    <li> Official Title: {{bill.official_title}}</li>
+    <li> Introduced on: {{bill.introduced_on}}</li>
+    <li> Chamber: {{bill.chamber}}</li>
+    <li> Active: {{bill.history.active}}</li>
+    <br>
+  {{/each}}
+</ul>
+{{#link-to 'results'}}Results{{/link-to}}
