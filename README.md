@@ -40,7 +40,7 @@ You will need the following things properly installed on your computer.
 * Bower
 * HTML
 * Bootstrap
-* Firebase
+* sunlightfoundation.com API
 
 ## Further Reading / Useful Links
 
